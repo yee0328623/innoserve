@@ -1,0 +1,102 @@
+<resources>
+    <string name="app_name" translatable="false">My Application40</string>
+    <string name="ny" translatable="false">編輯個人資料</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="list_setting">
+        <item>用戶名</item>
+        <item>id</item>
+        <item>性別</item>
+        <item>帳號</item>
+        <item>密碼</item>
+        <item>年齡</item>
+        <item>電話</item>
+    </string-array>
+
+    <string-array name="water_county">
+        <item>臺北市</item>
+        <item>新北市</item>
+        <item>臺中市</item>
+        <item>臺南市</item>
+        <item>高雄市</item>
+        <item>宜蘭縣</item>
+        <item>桃園市</item>
+        <item>桃園市</item>
+        <item>新竹縣</item>
+        <item>苗栗縣</item>
+        <item>彰化縣</item>
+        <item>南投縣</item>
+        <item>雲林縣</item>
+        <item>嘉義縣</item>
+        <item>屏東縣</item>
+        <item>臺東縣</item>
+        <item>花蓮縣</item>
+        <item>澎湖縣</item>
+        <item>基隆市</item>
+        <item>新竹市</item>
+        <item>屏東縣</item>
+        <item>金門縣</item>
+        <item>連江縣</item>
+        <item>基隆港</item>
+        <item>臺中港</item>
+        <item>高雄港</item>
+        <item>所有區域</item>
+    </string-array>
+    <string-array name="water_type">
+        <item>湖潭</item>
+        <item>溪河</item>
+        <item>游泳池</item>
+        <item>池塘</item>
+        <item>圳溝</item>
+        <item>近海(海岸線1公里內)</item>
+        <item>碼頭</item>
+        <item>外海(海岸線1公里以外)</item>
+        <item>魚塭</item>
+        <item>水庫</item>
+        <item>所有種類</item>
+    </string-array>
+
+    <string-array name="place_year">
+        <item>2017</item>
+        <item>2018</item>
+        <item>2019</item>
+        <item>2020</item>
+        <item>2021</item>
+        <item>2017~2021</item>
+        <!-- 添加其他年份选项 -->
+    </string-array>
+    <string-array name="locations_array">
+        <item>北投區</item>
+        <item>士林區</item>
+        <item>內湖區</item>
+        <item>中山區</item>
+        <item>大同區</item>
+        <item>松山區</item>
+        <item>南港區</item>
+        <item>中正區</item>
+        <item>萬華區</item>
+        <item>信義區</item>
+        <item>大安區</item>
+        <item>文山區</item>
+    </string-array>
+
+
+    <string name="title_activity_main11" translatable="false">MainActivity11</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="next" translatable="false">Next</string>
+    <string name="previous" translatable="false">Previous</string>
+
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="title_activity_main16">MainActivity16</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+</resources>

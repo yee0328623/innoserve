@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#482196F3"
+    tools:context=".MainActivity13">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar9"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="忘記密碼"
+        app:titleMarginStart="100dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="176dp"
+        android:layout_marginBottom="10dp"
+        android:text="請輸入你的帳號"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar9" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="249dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:hint="gmail"
+        android:inputType="textEmailAddress"
+        app:layout_constraintBottom_toTopOf="@+id/button8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="451dp"
+        android:background="@drawable/btnsharp"
+        android:text="下一步"
+        app:backgroundTint="#A93F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

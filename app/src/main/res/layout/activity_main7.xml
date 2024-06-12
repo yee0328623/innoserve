@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2E9FF"
+    tools:context=".MapsActivity">
+
+    <Button
+        android:id="@+id/btn6"
+        android:layout_width="164dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/btnsharp"
+        android:text="危險通報"
+        android:textSize="20sp"
+        app:backgroundTint="#A93F51B5"
+        app:icon="@drawable/_291745"
+        app:iconPadding="2dp"
+        app:iconSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn5"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="164dp"
+        android:layout_height="59dp"
+        android:background="@drawable/btnsharp"
+        android:text="天氣查詢"
+        android:textSize="20sp"
+        app:backgroundTint="#A93F51B5"
+        app:icon="@drawable/_853912"
+        app:iconPadding="7dp"
+        app:iconSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.699" />
+
+    <Button
+        android:id="@+id/btn5"
+        android:layout_width="164dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/btnsharp"
+        android:text="地區查詢"
+        android:textSize="20sp"
+        app:backgroundTint="#A93F51B5"
+        app:icon="@drawable/_074088"
+        app:iconPadding="7dp"
+        app:iconSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn4" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="418dp"
+        android:layout_height="61dp"
+        android:background="@color/purple_200"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:menu="@menu/menu2"
+        app:popupTheme="@style/ToolbarPopupTheme"
+        app:title="水域安全"
+        app:titleMarginStart="160dp"
+        app:titleTextAppearance="@style/TitleTextSize" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/tdButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="jjijijjida"
+
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.895"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/map"
+        app:layout_constraintVertical_bias="0.667"
+        app:srcCompat="@drawable/_917226" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="414dp"
+        android:layout_height="396dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar"
+        app:layout_constraintVertical_bias="0.202" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

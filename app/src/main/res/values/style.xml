@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.Toorbar" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/design_default_color_on_primary</item>
+        <item name="colorPrimaryDark">@color/design_default_color_primary_dark</item>
+        <item name="colorAccent">@color/design_default_color_primary_variant</item>
+    </style>
+    <style name="TitleTextSize" parent="@style/Base.TextAppearance.AppCompat.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="ToolbarPopupTheme" parent="@style/ThemeOverlay.AppCompat.Light">
+        <item name="android:colorBackground">#FFF</item>
+        <item name="actionOverflowMenuStyle">@style/OverflowMenuStyle</item>
+    </style>
+    <style name="OverflowMenuStyle" parent="Widget.AppCompat.Light.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>  <!--讓跳出的選項視窗不會遮住Toolbar-->
+    </style>
+</resources>

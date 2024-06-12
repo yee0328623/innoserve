@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2E9FF"
+    tools:context=".MainActivity3">
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="222dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginEnd="104dp"
+        android:layout_marginBottom="136dp"
+        android:background="@drawable/btnsharp"
+        android:text="下一步"
+        app:backgroundTint="#A93F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="TouchTargetSizeCheck" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="註冊"
+        app:titleMarginStart="120dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="364dp"
+        android:layout_height="304dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="1dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3">
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/underline"
+            android:ems="10"
+            android:hint="輸入名字"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/Email2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/underline"
+            android:ems="10"
+            android:hint="gmail"
+            android:inputType="textEmailAddress"
+            android:minHeight="48dp" />
+
+        <EditText
+            android:id="@+id/editTextPhone"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/underline"
+            android:ems="10"
+            android:hint="電話"
+            android:inputType="phone" />
+
+        <EditText
+            android:id="@+id/Password3"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="@drawable/underline"
+            android:ems="10"
+            android:hint="至少6位數，區分大小寫"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:background="@drawable/underline"
+            android:ems="10"
+            android:hint="再次輸入密碼"
+            android:inputType="textPassword" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="362dp"
+        android:layout_height="57dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="32dp"
+        android:background="#FFFFFF"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/btn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="79dp"
+            android:layout_height="59dp"
+            android:gravity="center"
+            android:text="性別"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="74dp"
+            android:layout_height="59dp"
+            android:text="男" />
+
+        <RadioButton
+            android:id="@+id/radioButton3"
+            android:layout_width="74dp"
+            android:layout_height="59dp"
+            android:text="女" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="159dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="126dp"
+        android:layout_marginEnd="126dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar3"
+        app:srcCompat="@drawable/life_saver" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

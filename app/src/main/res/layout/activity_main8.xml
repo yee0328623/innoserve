@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2E9FF"
+    tools:context=".MainActivity8">
+
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="247dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/btn7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt16" />
+
+    <Button
+        android:id="@+id/btn7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="141dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="182dp"
+        android:layout_marginBottom="130dp"
+        android:background="@drawable/btnsharp"
+        android:text=" 送出"
+        android:textSize="20sp"
+        app:backgroundTint="#A93F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText2"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txt14"
+        android:layout_width="69dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="270dp"
+        android:text="地點"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner" />
+
+    <TextView
+        android:id="@+id/txt15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="279dp"
+        android:text="情況"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/toolbar6" />
+
+    <EditText
+        android:id="@+id/spinner"
+        android:layout_width="238dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:hint=""
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txt14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt15" />
+
+    <TextView
+        android:id="@+id/txt16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="279dp"
+        android:layout_marginBottom="3dp"
+        android:text="補充"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextText2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextText" />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar6"
+        android:layout_width="409dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/white"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintBottom_toTopOf="@+id/txt15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:navigationIcon="?attr/actionModeCloseDrawable"
+        app:title="危險通報"
+        app:titleMarginStart="100dp" />
+
+    <EditText
+        android:id="@+id/editTextText"
+        android:layout_width="239dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:hint="例如:南投縣"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintBottom_toTopOf="@+id/txt16"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt14" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

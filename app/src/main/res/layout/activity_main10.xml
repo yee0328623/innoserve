@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#482196F3"
+    tools:context=".MainActivity10">
+
+    <Spinner
+        android:id="@+id/spinner7"
+        android:layout_width="178dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="39dp"
+        android:layout_marginBottom="90dp"
+        android:background="@drawable/underline"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt24"
+        app:layout_constraintTop_toBottomOf="@+id/spinner6" />
+
+    <TextView
+        android:id="@+id/txt22"
+        android:layout_width="143dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="62dp"
+        android:layout_marginEnd="151dp"
+        android:text="新增地點"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="20dp"
+        android:text="區域:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt24"
+        app:layout_constraintEnd_toStartOf="@+id/spinner6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt22" />
+
+    <Spinner
+        android:id="@+id/spinner6"
+        android:layout_width="224dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/underline"
+        app:layout_constraintBottom_toTopOf="@+id/spinner7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/txt23"
+        app:layout_constraintTop_toBottomOf="@+id/txt22" />
+
+    <TextView
+        android:id="@+id/txt24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="29dp"
+        android:text="水域類型:"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt25"
+        app:layout_constraintEnd_toStartOf="@+id/spinner7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt23" />
+
+    <TextView
+        android:id="@+id/txt25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="243dp"
+        android:layout_marginBottom="10dp"
+        android:text="發生情況"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt24" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="294dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/underline"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/btn9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt25" />
+
+    <Button
+        android:id="@+id/btn9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="168dp"
+        android:background="@drawable/btnsharp"
+        android:text="提交"
+        app:backgroundTint="#B23F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="180dp"
+        android:background="@drawable/btnsharp"
+        android:text="返回"
+        app:backgroundTint="#B23F51B5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/btn9"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
