@@ -1,2 +1,4 @@
 *.java linguist-language=Java
 app/venv/* linguist-vendored
+*.ps1 linguist-vendored
+*.bat linguist-vendored
