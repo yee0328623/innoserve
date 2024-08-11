@@ -1,6 +1,2 @@
-*.rb linguist-language=Java
-assets/vendor/* linguist-vendored
-assets/images/* linguist-vendored=false
-docs/* linguist-documentation
-docs/formatter.rb linguist-documentation=false
-js/main.min.js linguist-generated=true
+# .gitattributes
+*.java linguist-language=Java
