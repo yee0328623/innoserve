@@ -1,6 +1,0 @@
-*.java linguist-language=Java
-*.ps1 linguist-vendored
-*.bat linguist-vendored
-app/venv/** linguist-vendored
-app/venv/** linguist-detectable=false
-
