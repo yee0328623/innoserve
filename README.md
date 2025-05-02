@@ -4,8 +4,8 @@
 
 ## 參賽官網
 
-[大專校院資訊應用服務創新競賽](https://innoserve.tca.org.tw/)
 🎉 本專案成功晉級第 28 屆決賽組
+[大專校院資訊應用服務創新競賽](https://innoserve.tca.org.tw/)
 
 ## 📌 專案簡介
 
