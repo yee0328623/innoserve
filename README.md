@@ -37,10 +37,12 @@
 ## 📷 系統介面預覽
 
 ### 首頁畫面
-![首頁畫面](images/screenshot_1.png)
+![首頁畫面](![image](https://github.com/user-attachments/assets/a8d08b9e-a083-45fc-b144-de0c53065bcd)
+)
 
 ### 登入畫面
-![登入畫面](images/screenshot_2.png)
+![登入畫面](![image](https://github.com/user-attachments/assets/160bece7-0cd3-4226-81c2-ac4cec8b7c3d)
+)
 
 ### 危險水域警示
 ![危險警示](images/screenshot_3.png)
